@@ -218,6 +218,4 @@ caixa de papelã
     Espaçamento (espaço externo)
     
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8d234f4b-b5c6-4883-8857-6fc6f0b70ccb/Untitled.png)
-
 ---
