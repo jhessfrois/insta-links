@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
+}
+
+:root {
+  --ff-card: "Poppins", sans-serif;
+  --fc-card: #fff;
+  --btn-color: #B66D64;
+
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-card);
+
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem 2rem 2rem;
+  background: #0c0f16;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
+}
+
+.bg {
+  background-image: url('/assets/image/58064.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  max-width: 40rem;
+  padding: 3rem 3.0rem ;
+
+/*   background: #13161E;
+ */
+
+  background: rgba(19, 22, 30, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: center;
+
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  animation: card-down 700ms ease-in;
+}
+
+
+.card img {
+  width: 15rem;
+  
+  padding: 5px;
+
+  border-radius: 50%;
+  border: solid 4px #B66D64;
+
+  margin-bottom: 1.5rem;
+}
+
+.card h1, p {
+  color: var(--fc-card);
+}
+
+.card h1 {
+  font: normal 700 2.5rem var(--ff-card);
+  line-height: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font: normal 400 1.4rem var(--ff-card);
+  margin-bottom: 2rem;
+}
+
+.card i {
+  margin-right: 10px;
+}
+
+.fa-brands {
+  font-size: 2rem;
+}
+
+.fa-heart {
+  color: #fd1212;
+}
+
+.content > p {
+  margin-top: 1rem;
+  text-align: center;
+
+  font: normal 400 1.2rem "Poppins", sans-serif;
+}
+
+.card button {
+  margin-bottom: 12px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+
+  background: var(--btn-color);
+  color: black;
+  font: normal 500 1.8rem var(--ff-card);
+
+  width: 90%;
+
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.card button:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+#logo-rocketseat {
+  padding-top: 7px;
+  transition: scale .6s;
+}
+
+
+/*Responsivity*/
+  @media (max-width: 750px){
+    :root {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+    }
+    
+    * {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+    }
+
+    body {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+    }
+
+    .particle {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+}
+    
+  }
