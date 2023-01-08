@@ -1,6 +1,6 @@
 # Insta Links
 
-![preview](/.github/preview.png)
+![preview](.github/preview.png)
 
 > Maratona Explorer by Rocketseat
 
