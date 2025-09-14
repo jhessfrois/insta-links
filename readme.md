@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Logo Maratona Explorer - Rocketseat" src="https://i.imgur.com/nLomipV.png" width="200px" />
-</p>
+</p> 
  
 <p align="center">
 Aplicação desenvolvida na 2ª edicão da Maratona Explorer da Rocketseat.
@@ -48,3 +48,4 @@ Nesse projeto foi desenvolvido um agrupador de links no estilo do famoso Linktre
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
+
